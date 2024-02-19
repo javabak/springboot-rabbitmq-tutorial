@@ -1,0 +1,21 @@
+spring:
+  rabbitmq:
+    host: localhost
+    password: guest
+    username: guest
+    port: 5672
+
+# ????????? ??? ???????? ?????? ???????????? -
+rabbit:
+  queue:
+    name: first-queue
+    json:
+      name: first-queue-json
+  exchange:
+    name: first-exchange
+    json:
+      name: first-exchange-json
+  routing:
+    key: first-routing
+    json:
+      key: first-routing-key
